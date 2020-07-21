@@ -1,5 +1,7 @@
 const express = require('express');
 
+const db = require('./usersConfig.js');
+
 const server = express();
 
 server.use(express.json());
